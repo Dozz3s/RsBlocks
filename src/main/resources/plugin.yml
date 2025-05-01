@@ -1,0 +1,13 @@
+name: RsBlocks
+version: 1.3-BETA
+main: com.dozz3s.rsblocks.RsBlocksMain
+api-version: 1.16
+commands:
+  rsblocks:
+    description: Команды RsBlocks
+    usage: /rsblocks give <игрок> <тип> или /rsblocks reload
+    permission: rsblocks.adm
+permissions:
+  rsblocks.adm:
+    description: Разрешает комманды плагина
+    default: op
