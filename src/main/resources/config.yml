@@ -1,0 +1,57 @@
+# Настройка Предметов
+furnace: #Печь
+  name: " "
+  lore:
+    - '  &8« &#EE2C2C⭐ &fСкоростная печка &8»'
+    - ''
+    - '  &fАтрибуты &7↷'
+    - ''
+    - '  &#EE2C2C>> §fПереплавка в &#EE2C2C{factor} §fраза'
+    - '  §fбыстрее'
+    - ''
+  acceleration_factor: 2 #Скорость ускорения
+  fuel_consumption_mode: "normal" #Тип траты топлива, matched - со скоростью переплавки, normal - обычная скорость траты
+smoker: #Коптильня
+  name: " "
+  lore:
+    - '  &8« &#EE2C2C⭐ &fСкоростная коптильня &8»'
+    - ''
+    - '  &fАтрибуты &7↷'
+    - ''
+    - '  &#EE2C2C>> §fПереплавка в &#EE2C2C{factor} §fраза'
+    - '  §fбыстрее'
+    - ''
+  acceleration_factor: 2
+  fuel_consumption_mode: "normal"
+blast_furnace: #Плавильня
+  name: " "
+  lore:
+    - '  &8« &#EE2C2C⭐ &fИнферно &8»'
+    - ''
+    - '  &fАтрибуты &7↷'
+    - ''
+    - '  &#EE2C2C>> §fПереплавка в &#EE2C2C{factor} §fраза'
+    - '  §fбыстрее'
+    - ''
+  acceleration_factor: 2
+  fuel_consumption_mode: "normal"
+brewing_stand: #Зельеварка
+  name: " "
+  lore:
+    - '  &8« &#EE2C2C⭐ &fУскоренная зельеварка &8»'
+    - ''
+    - '  &fАтрибуты &7↷'
+    - ''
+    - '  &#EE2C2C>> §fПереплавка в &#EE2C2C{factor} §fраза'
+    - '  §fбыстрее'
+    - ''
+  acceleration_factor: 2
+
+# Настройка сообщений
+messages:
+  usage: "&#FF5555Использование: /rsblocks give <игрок> <тип> или /rsblocks reload"
+  player_not_found: "&#FF5555Игрок не найден"
+  invalid_type: "&#FF5555Неверный тип. Используйте furnace, smoker, blast_furnace или brewing_stand"
+  give_success: "&#08FB5DВыдан {type} игроку {player}"
+  reload_success: "&#08FB5DКонфигурация успешно перезагружена"
+  reload_no_permission: "&#FF5555У вас нет разрешения"
