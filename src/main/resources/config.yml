@@ -1,0 +1,42 @@
+# Настройка печек
+custom_furnaces:
+  fast_furnace:
+    material: furnace # Поддерживаемые материалы furnace/smoker/blast_furnace
+    name: " "
+    lore:
+      - '  &8« &#EE2C2C⭐ &fСкоростная печка &8»'
+      - ''
+      - '  &fАтрибуты &7↷'
+      - '  &#EE2C2C>> §fПереплавка в &#EE2C2C{factor} §fраза быстрее'
+      - '  &#EE2C2C>> §fШанс удачи: &#EE2C2C{luck_chance}%'
+      - '  &#EE2C2C>> §fМножитель удачи: &#EE2C2C{luck_factor}x'
+      - ''
+    acceleration_factor: 2 # Скорость ускорения
+    fuel_consumption_mode: "normal" # Тип траты топлива, matched - со скоростью переплавки, normal - обычная скорость траты
+    luck_chance: 20 # Шанс удачи
+    luck_factor: 2 # Множитель удачи
+
+  super_furnace:
+    material: furnace
+    name: " "
+    lore:
+      - '  &8« &#FFAA00⚡ &fСупер печь &8»'
+      - ''
+      - '  &fАтрибуты &7↷'
+      - '  &#FFAA00>> §fСкорость: &#FFAA00{factor}x'
+      - '  &#FFAA00>> §fШанс удачи: &#FFAA00{luck_chance}%'
+      - '  &#FFAA00>> §fМножитель: &#FFAA00{luck_factor}x'
+      - ''
+    acceleration_factor: 3
+    fuel_consumption_mode: "matched"
+    luck_chance: 30
+    luck_factor: 3
+
+# Настройка сообщений
+messages:
+  usage: "&#FF5555Использование: /rsblocks give <игрок> <ID_блока> или /rsblocks reload"
+  player_not_found: "&#FF5555Игрок не найден"
+  invalid_type: "&#FF5555Неверный ID блока. Доступные: {types}"
+  give_success: "&#08FB5DВыдан {type} игроку {player}"
+  reload_success: "&#08FB5DКонфигурация успешно перезагружена"
+  reload_no_permission: "&#FF5555У вас нет разрешения"

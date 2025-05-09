@@ -1,0 +1,13 @@
+name: RsBlocks
+version: 1.4-BETA
+main: com.dozz3s.rsblocks.RsBlocksMain
+authors:
+  - Dozz3s
+api-version: 1.13
+commands:
+  rsblocks:
+    usage: /rsblocks give <игрок> <тип> или /rsblocks reload
+    permission: rsblocks.adm
+permissions:
+  rsblocks.adm:
+    default: op
